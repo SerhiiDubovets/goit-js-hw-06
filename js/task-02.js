@@ -14,6 +14,5 @@ ingredients.forEach(element => {
   ingredientsAllItem.textContent = element;
   ingredientsAll.append(ingredientsAllItem);
 });
+
 console.log(ingredientsAll)
-
-
