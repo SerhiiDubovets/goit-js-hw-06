@@ -14,15 +14,19 @@
 //  уже добавили в исходные файлы задания.
 
 
-const input = document.querySelector("#validation-input");
+// const input = document.querySelector("#validation-input");
 
-const onInputBlur = ()  => {
- if (input.value.length < input.dataset.length) {
-   input.classList.add("invalid");
- } else {
-     input.classList.add("valid");
-     input.classList.remove("invalid");
- }}
-input.addEventListener("blur", onInputBlur);
+// const onInputBlur = ()  => {
+//  if (input.value.length < input.dataset.length) {
+//    input.classList.add("invalid");
+//  } else {
+//      input.classList.add("valid");
+//      input.classList.remove("invalid");
+//  }}
+// input.addEventListener("blur", onInputBlur);
 
-console.dir(input.value.length)
+// console.dir(input.value.length)
+
+const validEl = document.querySelector("#validation-input.valid");
+const invalidEl = input.invalid
+console.dir(invalidEl)
